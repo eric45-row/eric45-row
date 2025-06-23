@@ -1,0 +1,414 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>
+   Stepping Stones International info hub  
+</title> 
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  h1, h2, h3 {
+    color: #2c3e50;
+    text-align: center;
+  } 
+
+  ul {
+    padding-left: 30px;
+  }
+nav {
+display-grid: grid;
+grid-template-columns: repeat (3, 1fr)
+gap: 20px; 
+border-radius: 10px;
+background-color: teal
+} 
+
+.timeline-grid {
+  display: grid;
+  grid-template-columns: 150px 1fr;  /* Year column fixed width, events fill rest */
+  gap: 15px 30px;  /* Row and column gaps */
+  padding: 20px;
+  font-family: Arial, sans-serif;
+} 
+
+.year {
+  font-weight: bold;
+  font-size: 1.2em;
+  padding-top: 10px;
+  color: #333;
+  border-right: 2px solid #ddd;
+  text-align: right;
+  user-select: none;
+}.events ul {
+  margin: 0;
+  padding-left: 20px;
+  color: #555;
+} 
+
+.events li {
+  margin-bottom: 8px;
+} 
+
+/* Responsive for small screens */
+@media (max-width: 600px) {
+  .timeline-grid {
+    grid-template-columns: 1fr; /* Stack everything */
+  }
+  
+  .year {
+    text-align: left;
+    border: none;
+    padding-bottom: 5px;
+  }
+}
+h2  { font-family: 'Lobster' , cursive;
+}
+  nav ul {
+    list-style: disc;
+    display: flex;
+     flex-direction: column;
+    padding-left: -40px;
+    gap: 10px;
+    background-color: #333;
+    padding: 40px;
+  }
+.headings {
+  padding: 10px;
+  border: 2px solid #333;
+  margin-bottom: 5px;
+  background-color: teal;
+box-shadow: 5px 10px;
+transition: box-shadow ease 0.3s;
+position: sticky;
+top: 0;
+} 
+
+@keyframes elastic {
+  0% { transform: scale(0.8); }
+  40% { transform: scale(1.2); }
+  60% { transform: scale(0.95); }
+  80% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+.headings {
+  animation: elastic 1s ease-out;
+} 
+
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+h1 { 
+     text-transform: uppercase;
+      font-family: 'Times New Roman' ,  Times, serif;
+}
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+@media ( max-width 1000px ) {
+      nav ul il {flex-direction: column;
+      background: white;
+        color: black;
+}
+}
+  .btn {
+     background-color: # 007bbf
+     color: teal;
+     padding: 10px  20px;
+     text-decoration: none;
+     border-radius: 5px;
+     display: inline-block;
+     box-shadow:  0 2px  5px 
+      rgba (0,0,0,0.2);
+    transition: background-color ease 0.3s;
+        }
+  .btn:hover {
+    background-color: #0056b3;
+     transform: scale (1.05);
+      transition: background-color ease 0.3s;
+}
+  section {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+  }
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+} 
+
+.slide-in {
+  animation: slideInLeft 1s ease-out forwards;
+}
+h1 { text-shadow: 3px 3px 6px
+       rgba(0,0,0,0.3)
+}
+.fancy-card {
+  background: linear-gradient(145deg, #0d0d0d , #1a1a1a);
+  color: #e0fefe;
+border: 1px solid #00ffc3;
+  font-family: 'Orbitron', sans-serif;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 600px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s ease;
+}
+.card-header h3 {
+  margin: 0;
+  font-size: 1.5em;
+  border-bottom: 1px solid #444;
+  padding-bottom: 10px;
+} 
+
+.card-body p {
+  margin: 10px 0 0;
+  line-height: 1.6;
+}
+.card-header {
+  border-left: 4px solid #ff00ff;
+  padding-left: 12px;
+}
+.fancy-card:hover {
+  box-shadow: 0 0 20px #00ffc3;
+  transform: translateY(-5px) scale(1.01);
+}
+</style>
+</head>
+<body><div class="fancy-card">
+<div class="timeline-grid">  <section class="slide-in"><h1>
+   Stepping Stones International info hub
+  </h1> 
+
+<p>
+The Stepping stones International info hub serves to help those in search of information on Stepping Stones International as well as its operations. <br>This website will give you information on the following topics or rather aspects on Stepping Stones International;
+</p></section> 
+
+<nav>
+<ul>
+  <li><a href="#Stepping-Stones-Internationals-formation" class="btn">
+Stepping Stones Internationals formation.</a>
+</li>
+  <li><a href="#Stepping-Stones-Internationals-Visions-and-goals-for-the-future" class="btn">
+Stepping Stones Internationals vision and goal for the future. </a>
+</li>
+  <li><a href="#Stepping-Stones-Internationals-ongoing-programmes-and-services" class="btn">
+Stepping Stones Internationals ongoing programmes and services.</a>
+</li>
+  <li><a href="#Stepping-Stones-Internationals-impact-to-its-communities" class="btn">
+  Stepping Stones Internationals impact to its community.</a>
+</li>
+</ul>
+</nav>
+<div class="formation">
+<div class="headings">
+<h2  id="Stepping-Stones-Internationals-formation">
+Stepping Stones Internationals formation.
+</h2></div>
+</div>
+<p>
+Stepping Stones International (SSI) is a non-governmental, non-profit organization founded in 2006 in Mochudi, Botswana. Its mission is to unlock the potential of orphaned and vulnerable adolescents aged 12 to 25 through holistic development, strengthening families, and activating sustainable opportunities for youth to become self-sufficient. 
+</p>
+<div class="fancy-card"> <div class="card-header">
+<h3> Formation Timeline:</h3></div> 
+
+<div class="card-body"><div class="year">
+<strong>2005</strong>
+</div>
+<div class="events"> <ul><li>SSI was registered in the United States under 501(c)(3) status.</li></ul><div> 
+
+<div class="year">
+<strong>2006</strong></div> 
+
+<div class="events">    <ul><li> 
+SSI was officially registered in Botswana as a non-profit organization.</li>
+<li>The organization began its operations by serving 30 orphaned and vulnerable children (OVC) in Mochudi.</li>
+  <li> It received endorsements from the Ministry of Education and the Department of Social Services as an adolescent OVC program.</li>
+<li> The Roman Catholic Church donated land in Mochudi for SSI's operations. </li></ul>
+</div>
+<div class="year">
+<strong>2007</strong>:</div>
+<div class="events"> <ul><li>SSI initiated a caregiver outreach program.</li>
+<li>  It established a partnership with the Baylor Teen Club.</li>
+  <li>Former President Festus Mogae officially opened the new SSI facility in Mochudi.</li></ul>
+</div>
+<div class="year">
+<strong>2008</strong>:</div>
+<div class="events"> <ul><li> - Participation increased to 70 participants.</li>
+  <li>SSI expanded peer education to Kgatleng, North-East, and Good Hope Districts.</li>
+  <li> The organization launched its first sexual abuse campaign in Mochudi.</li></ul></div> 
+
+<div class="year">
+<strong>2010</strong>:</div>
+<div class="events"><ul><li>SSI received a 3-year funding from the FACET Foundation to fund the Graff Leadership Centre.</li>
+  <li> It secured a 5-year funding for the Life Skills program from EDC.</li>
+  <li>The organization was awarded World Bank funding in collaboration with Human People to People to expand community mobilization and peer education in five new districts.</li>
+<li> SSI developed a training manual for police officers on juvenile justice in collaboration with UNICEF and the Botswana Police Service.</li></ul> </div></div>
+</div></div></div>
+<p>
+Over the years, SSI has grown significantly, expanding its reach and programs to serve thousands of youth across Botswana. Its comprehensive approach combines life skills, leadership training, psychosocial support, and community mobilization to empower young people to overcome challenges and achieve their full potential.
+</p>
+</div>
+<div class="Visions-and-goals"><div class="headings"><h2  id="Stepping-Stones-Internationals-Visions-and-goals-for-the-future">
+Stepping Stones Internationals Visions and goals for the future.
+</h2></div> 
+
+<p>
+Stepping Stones International (SSI) envisions a world where vulnerable youth become empowered leaders who achieve their dreams.
+</p> 
+
+<div class="fancy-card"> <div class="card-header"><h3>Their goals for the future focus on:</h3> </div><div class="card-body"> 
+
+<ul><li><i>Expanding Reach</i>: Building on their success of reaching over 28,000 youth, SSI aims to serve more young people across Botswana and beyond. </li> 
+
+<li><i> Enhancing Programs</i>: Continuing to develop holistic programs that combine life skills, leadership, psychosocial support, and community mobilization to empower youth. </li> 
+
+<li> <i>Strengthening Partnerships</i>: Collaborating with local and international organizations to provide job shadowing experiences and training programs, such as the ABSA Ready to Work initiative. 
+</li></ul></div></div> 
+
+<p>
+SSI remains committed to unlocking the potential of vulnerable youth, helping them become self-sufficient and active contributors to their communities.
+</p>
+</div>
+<div class="programmes-and-services"><div class="headings">
+<h2  id="Stepping-Stones-Internationals-ongoing-programmes-and-services">
+Stepping Stones Internationals ongoing programmes and services.
+</h2></div> 
+
+<p>
+Stepping Stones International hosts a number of programmes. Which cater for both the young , the youth and the elderly or as we like to refer to them as the oldies , respectfully that is. These programmes can very from place to place as well as its outreach to the communities in their vicinity. These programmes are as follows in their respective locations.
+</p> 
+
+<h3>Ongoing programmes:</h3>
+<nav>
+<ul>
+<li><a href="#Psychosocial-Support-(PSS)" class="btn">
+Psychosocial Support (PSS) & Family Care Plans  </a>
+</li>
+<li><a href="#Young-Mothers'-Support-Group" class="btn">
+Young-Mothers’-Support-Group</a>  
+</li>
+<li><a href="#DREAMS-Botswana-Initiative" class="btn">
+DREAMS Botswana Initiative  </a>
+</li> 
+<li><a href="#Breaking-Barriers-to-an-HIV-Free-Generation" class="btn">
+Breaking Barriers to an HIV-Free Generation (USAID)</a>
+</li>
+<li><a href="#Breakthrough-to-English-Literacy-Program" class="btn">
+Breakthrough to English Literacy Program  </a>
+</li>
+<li><a href="#STEM-Projects" class="btn">
+STEM Projects (Design Squad Global)</a>
+</li>
+<li><a href="#Finding-the-leader-within" class="btn">
+Find the Leader Within  </a>
+</li>
+<li><a href="#ABSA-Ready-to-Work" class="btn">
+ABSA Ready to Work</a>
+</li>
+<li><a href="#Child-Protection-Advocacy" class="btn">
+Child Protection Advocacy  </a>
+</li>
+<li><a href="#SASA!-Training" class="btn">
+SASA! Training (via Grannies Tea Group)  </a>
+</li>
+<li><a href="#Youth-Spot-Mobile-Application" class="btn">
+Youth Spot Mobile Application (with UNICEF, USAID, Botswana-Baylor)</a>
+</li>
+</ul>
+</nav> 
+
+<p>
+Stepping Stones International (SSI) offers a comprehensive range of ongoing programs and services aimed at empowering vulnerable youth and their families in Botswana. Here's an overview of their key initiatives: 
+
+<div class="fancy-card"> <div class="card-header"><h3>Psychosocial support & Family Empowerment </h3></div> 
+
+<div class="card-body"><h4  id="Psychosocial-Support-(PSS)">Psychosocial Support (PSS)</h4>SSI's social workers conduct monthly home visits to provide support, identify issues, and develop family care plans. They also offer referrals to community organizations for additional assistance. 
+
+<h4  id="Young-Mothers'-Support-Group">Young Mothers Support Group</h4>:In-school participants receive education on gender-based violence, equipping them to recognize abuse signs and seek help. 
+
+<h4  id="DREAMS-Botswana-Initiative">DREAMS Botswana Initiative</h4> In partnership with PEPFAR and PCI, this program aims to reduce HIV infections among adolescent girls and young women aged 9 to 24. It includes the Pinagare Family Program, which educates caregivers on sexual and reproductive health to support their children effectively. 
+
+<h4  id="Breaking-Barriers-to-an-HIV-Free-Generation">Breaking Barriers to an HIV-Free Generation</h4> Supported by USAID, this program focuses on preventing new HIV infections and reducing vulnerability among orphans and vulnerable children (OVCs) and adolescent girls and young women (AGYW) through health services, life skills education, financial literacy, and positive parenting interventions. </div> 
+
+<div class="fancy-card"> <div class="card-header"><h3>Education & literacy programmes </h3></div> 
+
+<div class="card-body"><h4  id="Breakthrough-to-English-Literacy-Program"> Breakthrough to English Literacy Program</h4>In collaboration with the University of Utah Reading Clinic, SSI trains teachers to improve English literacy rates among students. The program has been implemented in 32 schools, enhancing reading fluency and comprehension. 
+
+<h4  id="STEM-Projects">STEM Projects</h4> Using the Design Squad Global manual, participants engage in engineering and innovation projects, enhancing critical thinking and problem-solving skills with materials available in their communities. </div></div> 
+
+<div class="fancy-card"> <div class="card-header"><h3>Leadership & Economics </h3></div> 
+
+<div class="card-body"><h4  id="Finding-the-leader-within">Find the Leader Within</h4> This program develops entrepreneurial, career, and leadership skills among youth, boosting their confidence and helping them discover career paths. Many graduates have launched their own businesses. 
+
+<h4  id="ABSA-Ready-to-Work">ABSA Ready to Work</h4> In partnership with ABSA Botswana, this program provides training in money skills, people skills, work skills, and entrepreneurial skills. Participants receive certificates upon completion, preparing them for the workforce. </div></div> 
+
+<div class="fancy-card"><div class="card-header"><h3>Community mobilization & advocacy </h3></div> 
+
+<div class="card-body"><h4  id="Child-Protection-Advocacy">Child Protection Advocacy</h4>SSI aligns its staff policies with the Botswana Childrens Act of 2009 and advocates for its full implementation. They support child victims of abuse by ensuring access to essential services, including health, psychosocial support, justice advocacy, and education.
+<h4 id="SASA!-Training">SASA! Training</h4> Through the Grannies Tea Group, SSI provides community mobilization training to grandmothers, empowering them to identify and address gender-based violence in their communities. </div></div> 
+
+<div class="fancy-card"> <div class="card-header"><h3>Community Outreach Initiatives</h3></div>
+<div class="card-body">
+<ul>
+<li>
+  Stomp Out Sexual Abuse Campaign  
+</li>
+<li>   
+Gender equality workshops  
+</li> 
+  <li> 
+  Youth career fairs  
+</li>  
+  <li>
+Caregiver & peer educator training
+</li> 
+
+</ul> 
+
+SSI leads campaigns like the Stomp Out Sexual Abuse Campaign, conducts workshops on gender equality, and organizes youth career fairs. They also train caregivers and peer educators to address issues like sexual abuse, substance abuse, and intergenerational sex. </div></div> 
+
+<div class="fancy-card"> <div class="card-header"><h3><b>Digital engagement</b></h3></div> 
+
+<div class="card-body"> <h4  id="Youth-Spot-Mobile-Application">Youth Spot Mobile Application</h4>In partnership with UNICEF, USAID, and Botswana-Baylor Childrens Clinical Centre of Excellence, SSI launched the 'Youth Spot' app. This platform allows youth to access articles, monitor mental health, participate in social chats, and reflect on their lifestyle, contributing to SDG goals related to health, education, and innovation. 
+
+These programs collectively aim to unlock the potential of vulnerable youth, equipping them with the necessary skills, knowledge, and support to lead healthy, fulfilling lives and contribute positively to their communities.
+</p>
+</div></div></div>
+<div class="impact"><div class="headings">
+<h2  id="Stepping-Stones-Internationals-impact-to-its-communities">Stepping Stones Internationals impact to its communities</h2></div> 
+
+<div class="card-body"><p>
+Stepping Stones International (SSI) has made a powerful impact on communities in Botswana by empowering thousands of vulnerable youth with life skills, leadership training, education support, and psychosocial services. Through its holistic approach, SSI has helped young people stay in school, avoid risky behaviors, start businesses, and become confident leaders in their communities. Families have also been strengthened through caregiver support and community education, leading to safer, more resilient households. SSIs work has not only changed individual lives it has uplifted entire communities by unlocking the potential of the next generation.
+</p>
+</div></div>
+<div class="appreciation"><div class="headings">
+<h2>Appreciation note </h2></div> 
+
+<p>As you see this note it means you took your time to go through this website. Which is dearly appreciated on my side and hope to meet ya and if u wanna contact me jus WhatsAppthis number +267 78 704 456 thanks for your participation too</p></div></div>
+</body>
+</background></html>
+
+
+
+
+
+
+
+
+
+
+
